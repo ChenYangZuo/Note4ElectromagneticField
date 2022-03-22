@@ -178,10 +178,24 @@ $\large \int_S \triangledown \times \vec{F} \cdot d\vec{S}=\oint_C \vec{F} \cdot
 
 ## 1.7.1 拉普拉斯运算
 
+### 一、标量拉普拉斯运算
 
+$\large $$\large \triangledown^2u={\partial^2u \over \partial x^2}+{\partial^2u \over \partial y^2}+{\partial^2u \over \partial y^2}$
+
+### 二、矢量拉普拉斯运算
+
+$\large \triangledown^2\vec{F}=e_x\triangledown^2F_x+e_y\triangledown^2F_y+e_z\triangledown^2F_z$
 
 ## 1.7.2 格林定理
+
+已知一个场的分布，可以求解另一个场的分布
+
+$\large \int_V(\varphi \triangledown^2\psi+\triangledown \varphi\cdot \triangledown\psi)dV=\oint_S \varphi{\partial \psi \over \partial n}dS$
+
+$\large \int_V(\varphi \triangledown^2\psi-\psi\triangledown^2 \varphi)dV=\oint_S (\varphi{\partial \psi \over \partial n}-{\psi{\partial\varphi \over \partial n}})dS$
 
 
 
 # 1.8 亥姆霍兹定理
+
+一个矢量场所具有的性质可由它的散度和旋度来说明
